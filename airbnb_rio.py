@@ -161,10 +161,18 @@ def main():
         st.markdown(r'<div class="centered-text">The histogram below shows the frequency distribution of prices. We see that the distribution of prices is centered on 100€ per night (this being the median), however, there is a wide distribution of prices ranging from less than 50€ to 400€.</div>', unsafe_allow_html=True)
         st.markdown('<div class="subheader">Distribution of Prices</div>', unsafe_allow_html=True)
         fig = px.histogram(df_copy1, x='price', nbins=60, marginal='box', color_discrete_sequence=['#66CDAA'])
+        fig.update_layout(
+            xaxis_title='Price',
+            yaxis_title='Count'
+        )
         st.plotly_chart(fig)
         st.markdown('<div class="subheader">Price vs Reviews Score Rating</div>', unsafe_allow_html=True)
         st.markdown(r'<div class="centered-text">Here, we explore the relationship between price and review scores. The scatter plot shows how the price varies with the review scores for different room types, being lower in the case of shared rooms.</div> <br>', unsafe_allow_html=True)
         fig = px.scatter(df_copy1, x='price', y='review_scores_rating', color='room_type', color_discrete_sequence=['#FA8072', '#20B2AA', '#9370DB', '#FFC0CB'])
+        fig.update_layout(
+            xaxis_title='Price',
+            yaxis_title='Review Scores Rating'
+        )
         st.plotly_chart(fig)
 
         # Crear y mostrar el mapa de Folium
@@ -231,6 +239,10 @@ def main():
         st.markdown('<div class="subheader">Price by Room Type</div>', unsafe_allow_html=True)
         st.markdown(r'<div class="centered-text">And as previously mentioned, here we can see that the prices of shared rooms are the cheapest, followed by private rooms. While hotel rooms and complete houses or apartments have higher prices.</div> <br>', unsafe_allow_html=True)
         fig = px.violin(df_copy1, x='room_type', y='price', color='room_type', box=True, points='all', color_discrete_sequence=['#FA8072', '#20B2AA', '#6A5ACD', '#FFC0CB'])
+        fig.update_layout(
+            xaxis_title='Room Type',
+            yaxis_title='Price'
+        )
         st.plotly_chart(fig)
 
     # Pestaña de distancia a lugares turísticos
