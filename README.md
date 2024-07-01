@@ -6,7 +6,7 @@ This repository contains  a user-friendly application designed to help people pl
 
 ## Project Description
 
-The objective of this project is to provide a useful tool for travelers looking to find the perfect accommodation in Rio de Janeiro. The application allows users to filter and visualize information about Airbnb listings, making it easier to make informed decisions.
+The objective of this project is to provide a useful tool for travelers looking to find the perfect accommodation in Rio de Janeiro. The application allows users to filter and visualize information about Airbnb listings, making it easier to make informed decisions. Previously, proper data preprocessing was performed, which can be viewed in the [Airbnb Analysis Rio.](https://github.com/juuliquintana/airbnb-rio-streamlit-app)
 
 ## Repository Contents
 
