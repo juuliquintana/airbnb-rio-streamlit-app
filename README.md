@@ -20,7 +20,7 @@ The objective of this project is to provide a useful tool for travelers looking 
 
 To interact with the app just click the following URL: 
 
-https://rio-airbnb-st-app.streamlit.app/
+https://airbnb-rio-steamlit-app.streamlit.app/
 
 Or dowload the [_file_](https://github.com/MarBenitez/airbnb-rio-streamlit-app/blob/main/airbnb_rio.py) and run this code in your local:
 
