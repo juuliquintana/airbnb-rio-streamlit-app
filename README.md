@@ -1,4 +1,4 @@
-# Airbnb Listings Analysis in Rio de Janeiro
+# Rio de Janeiro - Airbnb Streamlit app
 
 This repository contains a user-friendly application designed to help people plan their trip to Rio de Janeiro easily and effectively. 
 
@@ -6,7 +6,7 @@ This repository contains a user-friendly application designed to help people pla
 
 ## Project Description
 
-The objective of this project is to provide a useful tool for travelers looking to find the perfect accommodation in Rio de Janeiro. The application allows users to filter and visualize information about Airbnb listings, making it easier to make informed decisions. Previously, proper data preprocessing was performed, which can be viewed in the [_Airbnb Analysis Rio._](https://github.com/marbenitez/airbnb-rio-analysis-nb.ipynb)
+The objective of this project is to provide a useful tool for travelers looking to find the perfect accommodation in Rio de Janeiro. The application allows users to filter and visualize information about Airbnb listings, making it easier to make informed decisions. Previously, proper data preprocessing was performed, which can be viewed in the [_Airbnb Analysis Rio._](https://github.com/MarBenitez/airbnb-rio-analysis-nb/blob/main/airbnb_rio.ipynb)
 
 ## Repository Contents
 
@@ -20,7 +20,7 @@ The objective of this project is to provide a useful tool for travelers looking 
 
 To interact with the app just click the following URL: 
 
-https://airbnb-rio-steamlit-app.streamlit.app/
+https://airbnb-rio.streamlit.app/
 
 Or dowload the [_file_](https://github.com/MarBenitez/airbnb-rio-streamlit-app/blob/main/airbnb_rio.py) and run this code in your local:
 
